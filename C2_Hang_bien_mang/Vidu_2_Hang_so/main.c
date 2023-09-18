@@ -10,8 +10,7 @@ int main()
     printf("\n\nHang nguyen he 8 va he 16:\
     %7d %7d %7d %7d %7d", 0345, 0xa9, 0xa9, 0xa9, 0xa9);
     /*In hằng kí tự dùng đặt tả: %[fw]c */
-    printf("%c %c %6c %6c %6c %6c %6c%", '\n', '\n', 'a', '\141', '\'', '\"','\\' );
-    /*In hằng xâu kí tự dùng đặc tả: %[fw]s */
+    printf("%c %c %6c %6c %6c %6c %6c%", '\n', '\n', 'a', '\141', '\'', '\"','\\' ); // \141 là hệ 8 sang hệ int là 97 
     printf("\n\n %10c%s",' ',"Chuc may man!");
     return 0;
 }
