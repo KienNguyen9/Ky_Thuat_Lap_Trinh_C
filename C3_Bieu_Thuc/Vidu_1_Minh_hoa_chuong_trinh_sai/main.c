@@ -21,9 +21,11 @@ int main()
         /* Không thận trọng khi dùng phép tăng giảm 
         -> KẾT QUẢ SAI*/
         printf("\n Khi x = 10 va y = 11 thi cau lenh: ");
+        // 3 dòng dưới đây Không in gì cả
         printf("\n printf(\"\\n\%6)");
         printf("d\\n\%6");
         printf("d\\n\%6");
+        //-----------------------??
         printf("d\", se in ra (gia tri sai):");
         printf("\n %6d\n%6d\n%6d", x-- * ++y, x-- - --y,x++ + ++y);
     }
