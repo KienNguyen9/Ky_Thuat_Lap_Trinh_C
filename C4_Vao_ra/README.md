@@ -7,8 +7,11 @@ Hàm printf() có khả năng:
 
 printf("chuỗi điều khiển",)
 
-1. Chuỗi điều khiển có thể có 3 thành phần sau
-- Các kí tự điều khiển:  \n xuống dòng ;
-                         \f sang trang mới; 
-                         \b lùi lại một vị trí; 
-                         \t dấu tab
+Chuỗi điều khiển có thể có 3 thành phần sau
+1. Các kí tự điều khiển:  
+    \n xuống dòng ;
+    \f sang trang mới; 
+    \b lùi lại một vị trí; 
+    \t dấu tab
+2. Các đặc tả chuyển dạng và tạo khung
+3. Kí tự hoặc chuỗi kí tự
