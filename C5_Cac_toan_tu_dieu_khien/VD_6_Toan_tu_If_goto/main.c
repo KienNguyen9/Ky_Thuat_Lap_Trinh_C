@@ -25,7 +25,20 @@ int main()
    scanf("%f",&y[i]);
    if(++i<=n)
    goto vaols; 
-
-
-    
+   //Tính tích vô hướng
+   s = 0.0;
+   i = 1;
+   tvh:
+   // In ra ket qua
+   s += x[i]*y[i];
+   if(++i <= n)
+   goto tvh;
+   //In ra ket qua
+   i = 1;
+   inkq:
+   printf("\nx[%d] = %0.2f y[%d] = %0.2f",i,x[i],i,y[i]);
+   if(++i <= n)
+   goto inkq;
+   printf("\n\n Tich vo huong = %0.2f",s);
+   return 0;    
 }
