@@ -25,6 +25,7 @@ int main()
 */
 
 // CÁCH 2
+/*
 int main()
 {
     int i,j;
@@ -34,5 +35,19 @@ int main()
     for(int z = 0; z<n ; z++){
         printf("  %0.2f   ",x[z]);
     }
+    return 0;
+}
+*/
+// CÁCH 3
+
+int main()
+{
+    int i = 1, j = n ;
+    float c;
+    for(;;)
+    {
+    printf("%d",i);
+    }
+    
     return 0;
 }
