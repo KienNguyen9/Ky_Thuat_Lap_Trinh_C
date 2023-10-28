@@ -16,6 +16,6 @@ int main()
     printf("\nCo tiep tuc hay khong (c/k)\n");
     k = getch();
     if(k=='c' || k == 'C') goto tt;
-    
+          
     return 0;
 }
