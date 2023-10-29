@@ -24,3 +24,19 @@
 - nguyên mẫu hàm
 - hàm main
 - định nghĩa các hàm con 
+## 2. Xây dựng hàm và sử dụng
+Mẫu xây dựng và sử dụng hàm trong một file source main.c
+    1. Thư viện
+    2. Biến toàn cục 
+    3. Nguyên mẫu hàm (các đối số)
+    4. Hàm main
+        - Lời gọi hàm(truyền tham số thực)
+    5. Xây dựng hàm con (đối số)
+        
+## 3. Con trỏ và địa chỉ 
+### CON TRỎ LÀ GI?
+    - Con trỏ là một biến lưu chữ giá trị địa chỉ của một biến khác 
+    - Khi con trỏ đã trỏ đến biến nào thì có thể thay đổi giá trị của biến đó và sử dụng giá trị đó 
+### ĐỊA CHỈ LÀ GÌ
+    - Địa chỉ là số thứ tự của byte đầu tiên trong dãy các byte nhớ của biến đó (VD float a có 4 byte nhớ thì số thứ tự của byte đầu tiên là địa chỉ của nó)
+    - 2 biến cùng kiểu dự liệu được khai báo liên tiếp nhau sẽ có địa chỉ cách nhau 2 byte . 
