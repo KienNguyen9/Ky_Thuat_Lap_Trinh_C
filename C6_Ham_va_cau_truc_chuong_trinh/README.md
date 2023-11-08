@@ -40,3 +40,22 @@ Mẫu xây dựng và sử dụng hàm trong một file source main.c
 ### ĐỊA CHỈ LÀ GÌ
     - Địa chỉ là số thứ tự của byte đầu tiên trong dãy các byte nhớ của biến đó (VD float a có 4 byte nhớ thì số thứ tự của byte đầu tiên là địa chỉ của nó)
     - 2 biến cùng kiểu dự liệu được khai báo liên tiếp nhau sẽ có địa chỉ cách nhau 2 byte . 
+### Khi nào thì dùng con trỏ
+    - Khi đối số muốn thay đổi giá trị của dữ liệu ngoài hàm
+    - Đối ra của hàm phải là con trỏ 
+
+## CON TRỎ VÀ MẢNG 1 CHIỀU
+
+### Phép toàn lấy địa chỉ cho các phần tử của mảng 1 chiều
+    VD: 
+```C++
+    double a[20]; // mảng 1 chiều a 20 phần tử
+    // Lấy địa chỉ như sau
+    &a[i] // i[0,19]
+    // Ten của mảng chính là hằng địa chỉ của phần từ đầu tiên của mảng
+    double *p;
+    p = a;
+    // Nếu con trỏ pa trỏ tới một biến a[k] nào đó thì;
+    pa+1 = &a[k+1]
+    *(pa+1) = a[k+1]
+```
